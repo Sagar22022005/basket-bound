@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ onAuthClick, onCartClick }) => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-2">
           <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-            Astrape.AI
+            Astrape
           </h1>
         </div>
 
