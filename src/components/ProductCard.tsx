@@ -60,7 +60,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
           <div className="flex items-center justify-between">
             <span className="text-2xl font-bold text-primary">
-              Rs{product.price}
+              ₹{product.price}
             </span>
           </div>
         </div>
