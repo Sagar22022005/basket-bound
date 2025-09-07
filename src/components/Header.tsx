@@ -1,9 +1,9 @@
-import React from 'react';
-import { ShoppingCart, User, LogOut } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { useAuth } from '@/contexts/AuthContext';
-import { useCart } from '@/contexts/CartContext';
-import { Badge } from '@/components/ui/badge';
+import React from "react";
+import { ShoppingCart, User, LogOut } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/contexts/AuthContext";
+import { useCart } from "@/contexts/CartContext";
+import { Badge } from "@/components/ui/badge";
 
 interface HeaderProps {
   onAuthClick: () => void;
@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ onAuthClick, onCartClick }) => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-2">
           <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-            TechStore
+            Astrape.AI
           </h1>
         </div>
 
@@ -43,23 +43,13 @@ export const Header: React.FC<HeaderProps> = ({ onAuthClick, onCartClick }) => {
 
           {user ? (
             <div className="flex items-center space-x-2">
-              <span className="text-sm font-medium">
-                Welcome, {user.name}
-              </span>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={logout}
-              >
+              <span className="text-sm font-medium">Welcome, {user.name}</span>
+              <Button variant="ghost" size="sm" onClick={logout}>
                 <LogOut className="h-4 w-4" />
               </Button>
             </div>
           ) : (
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={onAuthClick}
-            >
+            <Button variant="outline" size="sm" onClick={onAuthClick}>
               <User className="h-4 w-4 mr-2" />
               Sign In
             </Button>
