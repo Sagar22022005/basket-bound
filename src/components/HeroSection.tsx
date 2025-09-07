@@ -48,10 +48,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onShopNow }) => {
                 <ShoppingBag className="mr-2 h-5 w-5" />
                 Shop Now
               </Button>
-
-              <Button variant="outline" size="xl">
-                Learn More
-              </Button>
             </div>
 
             {/* Features */}
