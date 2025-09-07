@@ -36,7 +36,8 @@ export const products: Product[] = [
     id: "4",
     name: "SmartWatch Ultra",
     price: 449,
-    image: watch1,
+    image:
+      "https://imgs.search.brave.com/P58bmiNlIXhMHUJjNvAC4atPrHVGvqXjwmhvtqWlEyg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vRS1F/eWFmYS1Kcy1XYXRj/aDctVWx0cmEtMS00/My1Jbi1PcmFuZ2Ut/U3BvcnRzLUJhbmQt/TmV3LTEtUGFja19m/MGM4Zjc1NC1kOTI2/LTRhZWMtODQ3OC1l/ODkzN2NkYmRiZDQu/ZWI0NDNlOTMyN2Vj/MTljZTk2MjMyOGVj/NzJlOTI2NmEucG5n/P29kbkhlaWdodD01/ODAmb2RuV2lkdGg9/NTgwJm9kbkJnPUZG/RkZGRg",
     category: "Wearables",
     description:
       "Advanced smartwatch with health monitoring and fitness tracking features.",
